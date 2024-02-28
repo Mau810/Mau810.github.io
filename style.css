@@ -87,3 +87,9 @@ h3 {
         };
           color: #fffafa;
       }
+      nav {
+        background: rgb(239, 80, 41);
+        margin: 0 auto;
+        display: flex;
+        padding: 10px;
+    }
