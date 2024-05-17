@@ -106,8 +106,11 @@
 			
                 points = points + 1;
 			
-            changeBoxText(points);
-			speed = speed += 3;
+            function handleBoxClick(){
+			positionX = 0;
+			points = points + 1;
+			changeBoxText(points);
+			speed += 3;
 			}
 			
 			
